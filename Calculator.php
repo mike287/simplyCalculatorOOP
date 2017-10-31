@@ -91,7 +91,7 @@ class Calculator
         }
     }
 
-    public function Option()
+    public function option()
     {
         switch ($this->getOption())
         {
