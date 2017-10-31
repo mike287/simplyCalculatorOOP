@@ -9,15 +9,15 @@ $a = NULL;
 
 $calculator = new Calculator($num1,$num2,$option);
 
-    if($calculator->Option() === "infinity")
+    if($calculator->option() === "infinity")
         {
-            echo $calculator->Option();
+            echo $calculator->option();
             $a = 1;
         }
 
         if($a != 1 )
         {
-            echo "result of ".$calculator->getNum1()." ".$calculator->Mark()." ".$calculator->getNum2()." = ".$calculator->Option();
+            echo "result of ".$calculator->getNum1()." ".$calculator->mark()." ".$calculator->getNum2()." = ".$calculator->option();
         }
 
 ?>
