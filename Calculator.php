@@ -69,7 +69,7 @@ class Calculator
         $this->option = $option;
     }
 
-    public function Mark()
+    public function mark()
     {
         switch ($this->getOption())
         {
